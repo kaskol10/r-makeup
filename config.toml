@@ -45,7 +45,7 @@ disqusShortname = ""
 
     [[params.navigation.links]]
       name = "Home"
-      url = "#"
+      url = ""
 
     [[params.navigation.links]]
       name = "Trabajos"
@@ -71,9 +71,9 @@ disqusShortname = ""
     #    url = "UrlOfLink"
 
     # Button Style 1
-    [[params.navigation.button1]]
+    [[params.navigation.calendar]]
       name = "Reserva cita"
-      url = "#"
+      url = "#calendar"
 
     # Button Style 2
    #  [[params.navigation.button2]]
@@ -139,13 +139,23 @@ disqusShortname = ""
     buttonText = "Get Started"
     url = "blogs"
 
+  # Calendar section
+  [params.calendar]
+    enable = true
+    title = "Reserva de citas"
+    subtitle = """Estos son mis próximos eventos."""
+    
 
   # Contact section
   [params.contact]
     enable = true
     buttonSend = "Contáctame"
     buttonClear = "Cancelar"
+    buttonWhatsapp = "Whatsapp"
+    telephone = "34606575349"
+    url = "#contact"
 
+  
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
     # email. Visitors can send up to a 1000 emails each month for free.
@@ -189,9 +199,9 @@ disqusShortname = ""
     # Uses font awesome icons
 
     [[params.footer.social]]
-      icon = "fa-facebook"
-      url= "https://www.facebook.com"
-      label = "Facebook"
+      icon = "fa-whatsapp"
+      url= "https://wa.me/34606575349"
+      label = "Whatsapp"
 
     [[params.footer.social]]
       icon = "fa-instagram"

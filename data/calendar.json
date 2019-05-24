@@ -1,0 +1,20 @@
+[
+    {
+        "event":"Boda en Oviedo",
+        "day":31,
+        "month":5,
+        "year":2019
+    },
+    {
+        "event":"Evento en Galicia",
+        "day":19,
+        "month":7,
+        "year":2019
+    },
+    {
+        "event":"Evento en Galicia",
+        "day":20,
+        "month":7,
+        "year":2019
+    }
+]

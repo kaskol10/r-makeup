@@ -3734,12 +3734,12 @@
 		#calendar > .inner > :nth-child(2n - 1) {
 			padding: 4em 3em 2em 0 ;
 			
-			width: 60%;
+			width: 100%;
 		}
 
 		#calendar > .inner > :nth-child(2n) {
 			padding-left: 3em;
-			width: 40%;
+			width: 100%;
 		}
 
 		#calendar > .inner > .split {

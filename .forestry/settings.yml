@@ -17,7 +17,7 @@ sections:
 upload_dir: https://s3-eu-west-1.amazonaws.com/cristinamakeup.ramiroalvfer.dev/img
 public_path: https://s3-eu-west-1.amazonaws.com/cristinamakeup.ramiroalvfer.dev/img
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public

@@ -14,9 +14,9 @@ sections:
   label: Blogs
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
-upload_dir: https://s3-eu-west-1.amazonaws.com/cristinamakeup.ramiroalvfer.dev/img
-public_path: https://s3-eu-west-1.amazonaws.com/cristinamakeup.ramiroalvfer.dev/img
+  new_doc_ext: md
+upload_dir: img
+public_path: img
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"

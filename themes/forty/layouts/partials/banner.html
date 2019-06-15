@@ -1,15 +1,17 @@
 {{ "<!-- Banner -->" | safeHTML}}
+
+{{ $banner := .Site.Data.banner }}
     <section id="banner" class="major">
         <div class="inner">
             <header class="major">
                 <div class="typewriter">
-                        <h1>{{ .Site.Params.Banner.title }}</h1>
+                        <h1>{{ $banner.title }}</h1>
                 </div>
             </header>
             <div class="content">
-                <p>{{ .Site.Params.Banner.subtitle }}</p>
+                <p>{{ $banner.subtitle }}</p>
                 <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">{{ .Site.Params.Banner.buttonText }}</a></li>
+                    <li><a href="#one" class="button next scrolly">{{ $banner.buttonText }}</a></li>
                 </ul>
             </div>
         </div>

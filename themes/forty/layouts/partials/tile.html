@@ -1,6 +1,7 @@
 {{ "<!-- Header -->" | safeHTML }}
+{{ $showcase := .Site.Data.showcase }}
     <section id="one" class="tiles">
-        {{ range .Site.Params.Tiles.showcase }}
+        {{ range $showcase }}
         <article>
             <span class="image">
                 <img src="{{ .Site.Params.baseURL }}img/{{ .image }}" alt="" />

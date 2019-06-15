@@ -1,104 +1,35 @@
 {{ "<!-- calendar -->" | safeHTML}}
+{{ $calendar := .Site.Data.calendar }}
     <section id="calendar">
         <div class="inner">
                 <section>
                 <header class="major">
-                        <h2>{{ .Site.Params.Calendar.title}}</h2>
+                        <h2>{{ $calendar.title}}</h2>
                     </header>
                
                 <div >
-                <p>{{ .Site.Params.Calendar.subtitle }}</p>
+                <p>{{ $calendar.subtitle }}</p>
                 </div>
-          
-            <!--
-                {{ range .Site.Data.calendar }}
-                <ul class="actions">
-                    <li>{{ .day }}-{{ .month }}-{{ .year }}</li>
-                    <li>{{ .event }} </li>
-                </ul>
-                {{ end }}
--->
-                
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Fecha</th>
-                                    <th>Descripción</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                    {{ range .Site.Data.calendar }}
-                                <tr>
-                                    <td>{{ .day }}-{{ .month }}-{{ .year }}</td>
-                                    <td>{{ .event }} </td>
-                                    
-                                </tr>
-                                {{ end }}
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            {{ range $element := $calendar.events }}
+                        <tr>
+                            <td>{{ $element.day }}-{{ $element.month }}-{{ $element.year }}</td>
+                            <td>{{ $element.event }} </td>
+                            
+                        </tr>
+                        {{ end }}
 
-                            </tbody>
-                        </table>
+                    </tbody>
+                </table>
                    
             </section>
-            <section class="split">
-                    <section>
-                            <div class="calendar-method">
-                                    <span class="icon alt fa-whatsapp"></span>
-                                    {{ range .Site.Params.Contact.whatsapp }}
-                                    <h3><a href="https://wa.me/{{ .phone }}">{{ .title }}</a></h3>
-                                    {{ end }}
-                                </div>
-                    </section>
-                    <section>
-                            <div class="calendar-method">
-                                    <span class="icon alt fa-envelope"></span>
-                                    {{ range .Site.Params.Contact.email }}
-                                    <h3><a href="mailto:{{ .email }}">{{ .title }}</a></h3>
-                                 
-                                    {{ end }}
-                                </div>
-                    </section>
-            </section>
-        </div>
-
-        <div class="inner">
-            <section>
-            <header class="major">
-                    <h2>{{ .Site.Params.Calendar.title}}</h2>
-                </header>
-           
-            <div >
-            <p>{{ .Site.Params.Calendar.subtitle }}</p>
-            </div>
-      
-        <!--
-            {{ range .Site.Data.calendar }}
-            <ul class="actions">
-                <li>{{ .day }}-{{ .month }}-{{ .year }}</li>
-                <li>{{ .event }} </li>
-            </ul>
-            {{ end }}
--->
-            
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Fecha</th>
-                                <th>Descripción</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                                {{ range .Site.Data.calendar }}
-                            <tr>
-                                <td>{{ .day }}-{{ .month }}-{{ .year }}</td>
-                                <td>{{ .event }} </td>
-                                
-                            </tr>
-                            {{ end }}
-
-                        </tbody>
-                    </table>
-               
-        </section>
        
-    </div>
+        </div>
     </section>

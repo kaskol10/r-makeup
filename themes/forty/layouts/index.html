@@ -22,12 +22,12 @@
 				{{ end }}
 			</div>
 		{{ "<!-- Calendar -->" | safeHTML}}
-			{{ if .Site.Params.Calendar.enable }}
+			{{ if .Site.Data.calendar.enable }}
 				{{ partial "calendar.html" . }}
 			{{ end }}
 
 		{{ "<!-- Contact -->" | safeHTML}}
-			{{ if .Site.Params.Contact.enable }}
+			{{ if .Site.Data.contact.general.enable }}
 				{{ partial "contact.html" . }}
 			{{ end }}
 

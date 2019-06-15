@@ -32,8 +32,8 @@
                 <section id="two" class="spotlights">
                     {{ range .Pages }}
                     <section>
-                        <a href="{{ .Permalink }}" class="image">
-							<img src="{{ .Site.Params.baseURL }}/img/{{ .Section }}/{{ .Params.image }}" alt="" data-position="center center" />
+                        <a href="{{ .Permalink }}index.html" class="image">
+							<img src="{{ .Site.Params.baseURL }}/img/{{ .Params.image }}" alt="" data-position="center center" />
 						</a>
                         <div class="content">
                             <div class="inner">

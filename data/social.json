@@ -1,0 +1,27 @@
+[
+    {
+        "icon": "fa-whatsapp",
+        "label": "Whatsapp",
+        "url": "https://wa.me/34606575349"
+    },
+    {
+        "icon": "fa-whatsapp",
+        "label": "Whatsapp",
+        "url": "https://wa.me/34606575349"
+    },
+    {
+        "icon": "fa-instagram",
+        "label": "Instagram",
+        "url": "https://www.instagram.com"
+    },
+    {
+        "icon": "fa-pinterest",
+        "label": "Pinterest",
+        "url": "https://www.pinterest.com"
+    },
+    {
+        "icon": "fa-linkedin",
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com"
+    }
+]

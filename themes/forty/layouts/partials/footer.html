@@ -1,8 +1,9 @@
 {{ "<!-- Footer -->" | safeHTML}}
+{{ $social := .Site.Data.social }}
     <footer id="footer">
         <div class="inner">
             <ul class="icons">
-                {{ range .Site.Params.Footer.social }}
+                {{ range $social }}
                     <li><a href="{{ .url | safeHTML }}" class="icon alt {{ .icon }}" target="_blank"><span class="label">{{ .label }}</span></a></li>
                 {{ end }}
             </ul>

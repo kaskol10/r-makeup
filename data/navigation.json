@@ -1,0 +1,31 @@
+{
+    "menu": "Menu",
+    "subtitle": "Make up",
+    "title": "Cristina",
+    "calendar": [
+        {
+            "name": "Reserva cita",
+            "url": "#calendar"
+        }
+    ],
+    "contact": [
+        {
+            "name": "Contacto",
+            "url": "#contact"
+        }
+    ],
+    "links": [
+        {
+            "name": "Home",
+            "url": ""
+        },
+        {
+            "name": "Trabajos",
+            "url": "blogs"
+        },
+        {
+            "name": "Elements",
+            "url": "elements.html"
+        }
+    ]
+}

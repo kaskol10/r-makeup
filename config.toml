@@ -1,4 +1,5 @@
 baseURL = "https://cristinamakeup.ramiroalvfer.dev/"
+#baseURL = "http://localhost:1313"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "es-es"
@@ -11,35 +12,7 @@ description = "Página web de la maquilladora Cristina Rancaño Fernández"
 favicon = "favicon.ico"
 image = ""
 name = "Cristina Rancaño Fernández"
-[params.banner]
-buttonText = "Quieres saber más"
-subtitle = "MAQUILLADORA Y MASAJISTA\nINSPIRACION PELICULAS"
-title = "Estás muy guapa"
 [params.blog]
-[params.calendar]
-enable = true
-subtitle = "Estos son mis próximos eventos."
-title = "Reserva de citas"
-[params.contact]
-buttonClear = "Cancelar"
-buttonSend = "Contáctame"
-buttonWhatsapp = "Whatsapp"
-enable = true
-telephone = "34606575349"
-url = "#contact"
-[[params.contact.address]]
-street = "Asturias"
-title = "Ubicación"
-[[params.contact.email]]
-email = "cristina@gmail.com"
-title = "Email"
-[[params.contact.phone]]
-phone = "606575349"
-title = "Teléfono"
-[[params.contact.whatsapp]]
-phone = "34606575349"
-title = "Mejor por Whatsapp?"
-whatsapp = "Pincha para whatsappear!"
 [params.error404]
 heading = "Page couldn't be found"
 text = "Please visit [this page](/)"
@@ -54,63 +27,8 @@ url = "https://www.html5up.net"
 alt = "Ramiro Alvarez Fernández"
 text = "Powered by:"
 url = "https://ramiroalvfer.dev"
-[[params.footer.social]]
-icon = "fa-whatsapp"
-label = "Whatsapp"
-url = "https://wa.me/34606575349"
-[[params.footer.social]]
-icon = "fa-instagram"
-label = "Instagram"
-url = "https://www.instagram.com"
-[[params.footer.social]]
-icon = "fa-pinterest"
-label = "Pinterest"
-url = "https://www.pinterest.com"
-[[params.footer.social]]
-icon = "fa-linkedin"
-label = "LinkedIn"
-url = "https://www.linkedin.com"
-[params.navigation]
-menu = "Menu"
-subtitle = "Make up"
-title = "Cristina"
-[[params.navigation.calendar]]
-name = "Reserva cita"
-url = "#calendar"
-[[params.navigation.contact]]
-name = "Contacto"
-url = "#contact"
-[[params.navigation.links]]
-name = "Home"
-url = ""
-[[params.navigation.links]]
-name = "Trabajos"
-url = "blogs"
-[[params.navigation.links]]
-name = "Elements"
-url = "elements.html"
 [params.tiles]
 enable = true
-[[params.tiles.showcase]]
-image = "pic01.jpg"
-subtitle = "Trato personalizado"
-title = "Personal"
-url = "blogs/aliquam"
-[[params.tiles.showcase]]
-image = "pic02.jpg"
-subtitle = "Todo tipo de eventos"
-title = "Eventos"
-url = "blogs/tempus"
-[[params.tiles.showcase]]
-image = "pic03.jpg"
-subtitle = "¿Quieres aprender?"
-title = "Escuela"
-url = "blogs/magna"
-[[params.tiles.showcase]]
-image = "pic04.jpg"
-subtitle = "Cosmética de alta calidad pensados para ti"
-title = "Calidad"
-url = "blogs/ipsum"
 [params.two]
 buttonText = "Get Started"
 enable = false

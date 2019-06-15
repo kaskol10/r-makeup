@@ -1,4 +1,5 @@
 {{ "<!-- Contact -->" | safeHTML}}
+{{ $contact := .Site.Data.contact }}
     <section id="contact">
         <div class="inner">
             <section>
@@ -16,8 +17,8 @@
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul class="actions">
-                        <li><input type="submit" value="{{ .Site.Params.Contact.buttonSend }}" class="special" /></li>
-                        <li><input type="reset" value="{{ .Site.Params.Contact.buttonClear }}" /></li>
+                        <li><input type="submit" value="{{ $contact.general.buttonSend }}" class="special" /></li>
+                        <li><input type="reset" value="{{ $contact.general.buttonClear }}" /></li>
                     </ul>
                 </form>
             </section>
@@ -25,43 +26,44 @@
                 <section>
                     <div class="contact-method">
                         <span class="icon alt fa-envelope"></span>
-                        {{ range .Site.Params.Contact.email }}
-                        <h3><a href="mailto:{{ .email }}">{{ .title }}</a></h3>
-                        <a href="mailto:{{ .email }}">{{ .email }}</a>
+                        {{ range $element := $contact.email }}
+                        <h3><a href="mailto:{{ $element.email }}">{{ $element.title }}</a></h3>
+                        <a href="mailto:{{ $element.email }}">{{ $element.email }}</a>
                         {{ end }}
                     </div>
                 </section>
                 <section>
                     <div class="contact-method">
                         <span class="icon alt fa-whatsapp"></span>
-                        {{ range .Site.Params.Contact.whatsapp }}
-                        <h3><a href="https://wa.me/{{ .phone }}">{{ .title }}</a></h3>
-                        <h4><a href="https://wa.me/{{ .phone }}">{{ .whatsapp }}</a></h4>
+                        {{ range $element := $contact.whatsapp }}
+                        <h3><a href="https://wa.me/{{ $contact.general.whatsapp }}">{{ $element.title }}</a></h3>
+                        <h4><a href="https://wa.me/{{ $contact.general.whatsapp }}">{{ $element.text }}</a></h4>
                         {{ end }}
                     </div>
                 </section>
                 <section>
                     <div class="contact-method">
                         <span class="icon alt fa-phone"></span>
-                        {{ range .Site.Params.Contact.phone }}
-                        <h3> <a href= "tel:{{ .phone }}">{{ .title }} </a></h3>
-                        <h4><a href= "tel:{{ .phone }}">{{ .phone }}</a></h4>
+                        {{ range $element := $contact.phone }}
+                        <h3> <a href= "tel:{{ $contact.general.phone }}">{{ $element.title }} </a></h3>
+                        <h4><a href= "tel:{{ $contact.general.phone }}">{{ $contact.general.phone }}</a></h4>
                         {{ end }}
                     </div>
                 </section>
                 <section>
                     <div class="contact-method">
                         <span class="icon alt fa-home"></span>
-                        {{ range .Site.Params.Contact.address }}
-                        <h3>{{ .title }}</h3>
-                        <span>{{ if .name }}{{ .name }}<br />{{end}}
-                        {{ if .street }}{{ .street }}<br />{{end}}
-                        {{ if .address }}{{ .address }}<br />{{end}}
-                        {{ if .address2 }}{{ .address2 }}<br />{{end}}
-                        {{ if .city }}{{ .city }}{{ end }}
-                        {{ if .state }}{{ .state }},{{ end }}
-                        {{ if .zip }}{{ .zip }}{{ end }}
-                        {{ if .country }} <br /> {{ .country }} {{ end }}
+                        {{ range $index, $element := $contact.address }}
+                       
+                        <h3>{{ $element.title }}</h3>
+                        <span>{{ if $element.name }}{{ $element.name }}<br />{{end}}
+                        {{ if $element.street }}{{ $element.street }}<br />{{end}}
+                        {{ if $element.address }}{{ $element.address }}<br />{{end}}
+                        {{ if $element.address2 }}{{ $element.address2 }}<br />{{end}}
+                        {{ if $element.city }}{{ $element.city }}{{ end }}
+                        {{ if $element.state }}{{ $element.state }},{{ end }}
+                        {{ if $element.zip }}{{ $element.zip }}{{ end }}
+                        {{ if $element.country }} <br /> {{ $element.country }} {{ end }}
                         </span>
                         {{ end }}
                     </div>

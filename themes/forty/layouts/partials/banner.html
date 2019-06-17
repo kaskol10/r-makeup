@@ -1,7 +1,7 @@
 {{ "<!-- Banner -->" | safeHTML}}
 
 {{ $banner := .Site.Data.banner }}
-    <section id="banner" class="major">
+    <section id="banner" class="major" style = "background-image: url({{ .Site.Params.baseURL }}img/{{ $banner.image }});">
         <div class="inner">
             <header class="major">
                 <div class="typewriter">

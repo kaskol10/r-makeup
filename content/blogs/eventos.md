@@ -1,0 +1,12 @@
++++
+categories = ["", "", "Evento", "Invitada", "Perfecta"]
+date = "2018-05-31T04:26:13+00:00"
+description = "Boda, bautizo, comunión, evento formal, graduación donde la etiqueta es que no hay etiqueta. Tenemos nuestro estilo, gusto y personalidad. Ir como uno quiere, no como está escrito, más natural o menos, lo que te apetezca para ese momento. "
+draft = true
+image = "pic08.jpg"
+keywords = ""
+slug = "Eventos"
+title = "Eventos"
+
++++
+#### _Boda, bautizo, comunión, evento formal, graduación donde la etiqueta es que no hay etiqueta. Tenemos nuestro estilo, gusto y personalidad. Ir como uno quiere, no como está escrito, más natural o menos, lo que te apetezca para ese momento._

@@ -4,7 +4,7 @@ description: 'Boda, bautizo, comunión, evento formal, graduación donde la etiq
   es que no hay etiqueta. Tenemos nuestro estilo, gusto y personalidad. Ir como uno
   quiere, no como está escrito, más natural o menos, lo que te apetezca para ese momento. '
 slug: Eventos
-image: pic08.jpg
+image: BLOGEVENTO.jpg
 keywords: ''
 categories:
 - ''
@@ -15,4 +15,4 @@ categories:
 date: 2018-05-31T04:26:13.000+00:00
 
 ---
-##### _Boda, bautizo, comunión, evento formal, graduación donde la etiqueta es que no hay etiqueta. Tenemos nuestro estilo, gusto y personalidad. Ir como uno quiere, no como está escrito, más natural o menos, lo que te apetezca para ese momento._
+### _Boda, bautizo, comunión, evento formal, graduación donde la etiqueta es que no hay etiqueta. Tenemos nuestro estilo, gusto y personalidad. Ir como uno quiere, no como está escrito, más natural o menos, lo que te apetezca para ese momento._

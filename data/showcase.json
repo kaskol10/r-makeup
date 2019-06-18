@@ -1,26 +1,26 @@
 [
   {
-    "image": "peinado.jpg",
-    "subtitle": "Trato personalizado",
-    "title": "Personal",
-    "url": "blogs/testing"
-  },
-  {
     "image": "FOTOEVENTO.jpg",
     "subtitle": "Are you ready?",
     "title": "Eventos",
     "url": "blogs/eventos"
   },
   {
-    "image": "school.jpg",
-    "subtitle": "¿Quieres aprender?",
-    "title": "Escuela",
-    "url": "blogs/magna"
+    "image": "peinado.jpg",
+    "subtitle": "Trato personalizado",
+    "title": "Personal",
+    "url": "blogs/testing"
   },
   {
     "image": "pic04.jpg",
     "subtitle": "Cosmética de alta calidad pensados para ti",
     "title": "Calidad",
     "url": "blogs/ipsum"
+  },
+  {
+    "image": "school.jpg",
+    "subtitle": "¿Quieres aprender?",
+    "title": "Escuela",
+    "url": "blogs/magna"
   }
 ]

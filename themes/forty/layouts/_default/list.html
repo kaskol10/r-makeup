@@ -13,7 +13,7 @@
         {{ "<!-- Main -->" | safeHTML }}
             <div id="main" class="alt">
 
-                <section id="banner" class="style2">
+                <section id="banner" class="style2" style = "background-image: url({{ .Site.Params.baseURL }}img/{{ .Params.banner_image }});">
                     <div class="inner">
 			{{ if .Params.image }}
                         <span class="image">

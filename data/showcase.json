@@ -1,0 +1,26 @@
+[
+  {
+    "image": "peinado.jpg",
+    "subtitle": "Trato personalizado",
+    "title": "Personal",
+    "url": "blogs/testing"
+  },
+  {
+    "image": "events.jpg",
+    "subtitle": "Todo tipo de eventos",
+    "title": "Eventos",
+    "url": "blogs/tempus"
+  },
+  {
+    "image": "school.jpg",
+    "subtitle": "¿Quieres aprender?",
+    "title": "Escuela",
+    "url": "blogs/magna"
+  },
+  {
+    "image": "pic04.jpg",
+    "subtitle": "Cosmética de alta calidad pensados para ti",
+    "title": "Calidad",
+    "url": "blogs/ipsum"
+  }
+]

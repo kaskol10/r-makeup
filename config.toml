@@ -12,6 +12,7 @@ description = "Página web de la maquilladora Cristina Rancaño Fernández"
 favicon = "favicon.ico"
 image = ""
 name = "Cristina Rancaño Fernández"
+banner_image = "peinado.jpg"
 [params.blog]
 [params.error404]
 heading = "Page couldn't be found"

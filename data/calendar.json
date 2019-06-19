@@ -1,25 +1,31 @@
 {
-    "enable": true,
-    "subtitle": "Estos son mis próximos eventos.",
-    "title": "Reserva de citas",
-    "events": [
-        {
-            "event":"Boda en Oviedo",
-            "day":31,
-            "month":5,
-            "year":2019
-        },
-        {
-            "event":"Evento en Galicia",
-            "day":19,
-            "month":7,
-            "year":2019
-        },
-        {
-            "event":"Evento en Galicia",
-            "day":20,
-            "month":7,
-            "year":2019
-        }
-    ]
+  "enable": true,
+  "subtitle": "Estos son mis próximos eventos.",
+  "title": "Reserva de citas",
+  "events": [
+    {
+      "event": "Boda en Oviedo",
+      "day": 10,
+      "month": "Agosto",
+      "year": 2019
+    },
+    {
+      "event": "Boda en Oviedo",
+      "day": 31,
+      "month": 5,
+      "year": 2019
+    },
+    {
+      "event": "Evento en Galicia",
+      "day": 19,
+      "month": 7,
+      "year": 2019
+    },
+    {
+      "event": "Evento en Galicia",
+      "day": 20,
+      "month": 7,
+      "year": 2019
+    }
+  ]
 }

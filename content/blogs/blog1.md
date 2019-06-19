@@ -7,7 +7,12 @@ keywords: ''
 categories:
 - ''
 - ''
-date: 2017-11-01T02:28:43.000+00:00
+- Productos
+- Cosméticos
+- Maquillaje
+- Lancome
+- Urban Decay
+date: 2019-06-30T22:00:00+00:00
 
 ---
 La calidad de la cosmética es de vital importancia. Por estar en contacto directo con nuestra piel implicando mejor resultado y mayor duración.  

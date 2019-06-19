@@ -5,7 +5,7 @@ description = "Alta cosmética"
 draft = true
 image = "SETCALIDAD.jpg"
 keywords = ""
-slug = "Calidad"
+slug = "qualite"
 title = "Calidad "
 
 +++

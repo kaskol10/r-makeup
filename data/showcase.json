@@ -1,15 +1,15 @@
 [
   {
-    "image": "FOTOEVENTO.jpg",
-    "subtitle": "Are you ready?",
-    "title": "Eventos",
-    "url": "blogs/eventos"
-  },
-  {
     "image": "school.jpg",
     "subtitle": "Trato personalizado",
     "title": "Personal",
     "url": "blogs/testing"
+  },
+  {
+    "image": "FOTOEVENTO.jpg",
+    "subtitle": "Are you ready?",
+    "title": "Eventos",
+    "url": "blogs/eventos"
   },
   {
     "image": "pic04.jpg",

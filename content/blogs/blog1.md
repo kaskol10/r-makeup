@@ -8,9 +8,7 @@ categories:
 - ''
 - ''
 - Productos
-- Cosméticos
 - Maquillaje
-- Lancome
 date: 2019-06-30T22:00:00+00:00
 
 ---

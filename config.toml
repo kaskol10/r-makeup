@@ -1,18 +1,17 @@
 baseURL = "https://cristinamakeup.ramiroalvfer.dev/"
-#baseURL = "http://localhost:1313"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "es-es"
 theme = "forty"
 title = "CristinaMakeUp"
 [params]
+banner_image = "peinado.jpg"
 custom_css = []
 custom_js = []
 description = "Página web de la maquilladora Cristina Rancaño Fernández"
 favicon = "favicon.ico"
 image = ""
 name = "Cristina Rancaño Fernández"
-banner_image = "peinado.jpg"
 [params.blog]
 [params.error404]
 heading = "Page couldn't be found"

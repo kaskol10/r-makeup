@@ -2,7 +2,7 @@
 title: 'Calidad '
 description: Alta cosmética
 slug: Calidad
-image: pic10.jpg
+image: MAKEUPSET.jpg
 keywords: ''
 categories:
 - ''

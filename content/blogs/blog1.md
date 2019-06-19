@@ -1,7 +1,7 @@
 ---
 title: 'Calidad '
 description: Alta cosmética
-slug: calidad
+slug: Calidad
 image: SETCALIDAD.jpg
 keywords: ''
 categories:

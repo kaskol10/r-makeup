@@ -11,7 +11,6 @@ categories:
 - Cosméticos
 - Maquillaje
 - Lancome
-- Urban Decay
 date: 2019-06-30T22:00:00+00:00
 
 ---

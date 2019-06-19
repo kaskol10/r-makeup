@@ -1,11 +1,5 @@
 [
   {
-    "image": "school.jpg",
-    "subtitle": "Trato personalizado",
-    "title": "Personal",
-    "url": "blogs/testing"
-  },
-  {
     "image": "FOTOEVENTO.jpg",
     "subtitle": "Are you ready?",
     "title": "Eventos",
@@ -16,6 +10,12 @@
     "subtitle": "Cosmética de alta calidad pensados para ti",
     "title": "Calidad",
     "url": "blogs/calidad"
+  },
+  {
+    "image": "school.jpg",
+    "subtitle": "Trato personalizado",
+    "title": "Personal",
+    "url": "blogs/testing"
   },
   {
     "image": "pic06.jpg",

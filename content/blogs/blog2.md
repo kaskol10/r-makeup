@@ -1,6 +1,6 @@
 ---
-title: Magna Carta Inspiratum
-description: Lorem Etiam Nullam
+title: Magna
+description: Magna Carta Inspiratum
 slug: magna
 image: pic09.jpg
 keywords: ''

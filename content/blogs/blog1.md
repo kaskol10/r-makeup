@@ -1,7 +1,7 @@
 ---
-title: Calitè
-description: 'première '
-slug: Calitè Supreme
+title: 'Calidad '
+description: Alta cosmética
+slug: Calidad
 image: pic10.jpg
 keywords: ''
 categories:
@@ -10,4 +10,6 @@ categories:
 date: 2017-11-01T02:28:43.000+00:00
 
 ---
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
+La calidad de la cosmética es de vital importancia. Por estar en contacto directo con nuestra piel implicando mejor resultado y mayor duración.  
+
+Alta cosmética y productos profesionales en el maletín, como concepto. Exigencia y exclusividad para potenciar las cosas bien hechas, como base de un buen trabajo.

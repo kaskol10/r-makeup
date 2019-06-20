@@ -4,7 +4,7 @@ date = "2019-06-30T22:00:00+00:00"
 description = "Alta cosmética"
 image = "MAKEUPSET.jpg"
 keywords = ""
-slug = "qualite"
+slug = "calidad"
 title = "Calidad "
 
 +++

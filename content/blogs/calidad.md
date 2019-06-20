@@ -2,11 +2,10 @@
 categories = ["", "", "Productos", "Maquillaje"]
 date = "2019-06-30T22:00:00+00:00"
 description = "Alta cosmética"
-draft = true
 image = "MAKEUPSET.jpg"
 keywords = ""
-slug = "calidad"
-title = "Calidad "
+slug = "productos"
+title = "Productos"
 
 +++
 La calidad de la cosmética es de vital importancia. Por estar en contacto directo con nuestra piel implicando mejor resultado y mayor duración.  

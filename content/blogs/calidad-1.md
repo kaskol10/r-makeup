@@ -5,7 +5,7 @@ description = "Alta cosmética"
 image = "MAKEUPSET.jpg"
 keywords = ""
 slug = "calidad"
-title = "Calidad "
+title = "Calidad"
 
 +++
 La calidad de la cosmética es de vital importancia. Por estar en contacto directo con nuestra piel implicando mejor resultado y mayor duración.  

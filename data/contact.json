@@ -1,34 +1,34 @@
 {
-    "general": {
-        "buttonClear": "Cancelar",
-        "buttonSend": "Contáctame",
-        "buttonWhatsapp": "Whatsapp",
-        "enable": true,
-        "phone": "606575349",
-        "whatsapp": "34606575349",
-        "url": "#contact"
-    },
-    "address": [
-        {
-            "street": "Asturias",
-            "title": "Ubicación"
-        }
-    ],
-    "email": [
-        {
-            "email": "cristina@gmail.com",
-            "title": "Email"
-        }
-    ],
-    "phone": [
-        {
-            "title": "Teléfono"
-        }
-    ],
-    "whatsapp": [
-        {
-            "title": "Mejor por Whatsapp?",
-            "text": "Pincha para whatsappear!"
-        }
-    ]
+  "general": {
+    "buttonClear": "Cancelar",
+    "buttonSend": "Contáctame",
+    "buttonWhatsapp": "Whatsapp",
+    "enable": true,
+    "phone": 606575349,
+    "whatsapp": 34606575349,
+    "url": "#contact"
+  },
+  "address": [
+    {
+      "street": "Asturias",
+      "title": "Ubicación"
+    }
+  ],
+  "email": [
+    {
+      "email": "criserrefernandez@gmail.com",
+      "title": "Email"
+    }
+  ],
+  "phone": [
+    {
+      "title": "Teléfono"
+    }
+  ],
+  "whatsapp": [
+    {
+      "title": "Mejor por Whatsapp?",
+      "text": "Pincha para whatsappear!"
+    }
+  ]
 }

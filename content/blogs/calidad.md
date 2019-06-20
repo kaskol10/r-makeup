@@ -2,7 +2,7 @@
 categories = ["", "", "Productos", "Maquillaje"]
 date = "2019-06-30T22:00:00+00:00"
 description = "Alta cosmética"
-image = "MAKEUPSET.jpg"
+image = "SETCALIDAD.jpg"
 keywords = ""
 slug = "productos"
 title = "Productos"

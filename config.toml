@@ -1,9 +1,11 @@
-baseURL = "https://cristinamakeup.ramiroalvfer.dev/"
+#baseURL = "https://cristinamakeup.ramiroalvfer.dev/"
+baseURL = "http://localhost:1313"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "es-es"
 theme = "forty"
 title = "CristinaMakeUp"
+publishDir = "public/"
 [params]
 banner_image = "peinado.jpg"
 custom_css = []

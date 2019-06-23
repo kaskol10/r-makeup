@@ -1,13 +1,17 @@
-+++
-categories = ["", "", "Productos", "Maquillaje"]
-date = "2019-06-30T22:00:00+00:00"
-description = "Alta cosmética"
-image = "SETCALIDAD.jpg"
-keywords = ""
-slug = "productos"
-title = "Productos"
 
-+++
-La calidad de la cosmética es de vital importancia. Por estar en contacto directo con nuestra piel implicando mejor resultado y mayor duración.  
 
-Alta cosmética y productos profesionales en el maletín, como concepto. Exigencia y exclusividad para potenciar las cosas bien hechas, como base de un buen trabajo.
+---
+title: Productos
+description: Alta cosmética
+  sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa
+  sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem
+  consequat tincidunt. Vivamus et sagittis tempus.
+slug: Productos
+image: SETCALIDAD.jpg
+keywords: ''
+categories:
+- Productos
+- Maquillaje
+date: 2017-11-01T03:42:51.000+00:00
+
+---

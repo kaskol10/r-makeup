@@ -1,5 +1,5 @@
-#baseURL = "https://cristinamakeup.ramiroalvfer.dev/"
-baseURL = "http://localhost:1313"
+baseURL = "https://cristinamakeup.ramiroalvfer.dev/"
+#baseURL = "http://localhost:1313"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "es-es"

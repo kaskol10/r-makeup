@@ -1,6 +1,6 @@
 ---
-title: Magna
-description: Magna Carta Inspiratum
+title: Magna Carta Inspiratum
+description: Inspiratum
 slug: magna
 image: pic09.jpg
 keywords: ''

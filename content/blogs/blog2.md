@@ -2,7 +2,7 @@
 title: Magna Carta Inspiratum
 description: Inspiratum
 slug: magna
-image: pic09.jpg
+image: INSPIRATUM.jpg
 keywords: ''
 categories:
 - ''

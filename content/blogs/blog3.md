@@ -6,6 +6,7 @@ description: 'Boda, bautizo, comunión, evento formal, graduación donde la etiq
 slug: Eventos
 image: BLOGEVENTO.jpg
 keywords: ''
+buttontext: Más eventos
 categories:
 - ''
 - ''

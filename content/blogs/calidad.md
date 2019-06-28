@@ -1,5 +1,3 @@
-
-
 ---
 title: Productos
 description: Alta cosmética
@@ -9,6 +7,7 @@ description: Alta cosmética
 slug: Productos
 image: SETCALIDAD.jpg
 keywords: ''
+buttontext: Más cosmética
 categories:
 - Productos
 - Maquillaje

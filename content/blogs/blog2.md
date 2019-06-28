@@ -4,6 +4,7 @@ description: Inspiratum
 slug: magnacartainspiratum
 image: INSPIRATUM.jpg
 keywords: ''
+buttontext: Carta Inspiratum
 categories:
 - ''
 - ''

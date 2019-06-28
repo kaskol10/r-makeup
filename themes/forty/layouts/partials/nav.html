@@ -11,8 +11,11 @@
 {{ "<!-- Menu -->" | safeHTML }}
     <nav id="menu">
         <ul class="links">
-            {{ range $index, $element := $navigation.links }}
+            {{ range $index, $element := $navigation.home }}
                 <li><a href="{{ $element.url | absURL}}index.html">{{ $element.name }}</a></li>
+            {{ end }}
+            {{ range $index, $element := $navigation.links }}
+                <li><a href="{{ $element.url | absURL}}/index.html">{{ $element.name }}</a></li>
             {{ end }}
             {{ range $index, $element := $navigation.contact }}
             <li><a href="{{ .Site.BaseURL }}/{{ $element.url }} ">{{ $element.name }}</a></li>

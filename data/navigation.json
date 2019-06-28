@@ -2,6 +2,12 @@
   "menu": "Menu",
   "subtitle": "Maquillaje profesional",
   "title": "Cristina",
+  "home" : [
+    {
+      "name": "Home",
+      "url": ""
+    }
+  ],
   "calendar": [
     {
       "name": "Reserva cita",
@@ -15,10 +21,6 @@
     }
   ],
   "links": [
-    {
-      "name": "Home",
-      "url": ""
-    },
     {
       "name": "Trabajos",
       "url": "blogs"

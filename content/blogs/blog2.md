@@ -1,7 +1,7 @@
 ---
 title: Magna Carta Inspiratum
 description: Inspiratum
-slug: magna
+slug: magnacartainspiratum
 image: INSPIRATUM.jpg
 keywords: ''
 categories:

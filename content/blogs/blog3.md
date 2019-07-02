@@ -1,9 +1,9 @@
 ---
-title: Eventos
+title: Event Fever
 description: 'Boda, bautizo, comunión, evento formal, graduación donde la etiqueta
   es que no hay etiqueta. Tenemos nuestro estilo, gusto y personalidad. Ir como uno
   quiere, no como está escrito, más natural o menos, lo que te apetezca para ese momento. '
-slug: Eventos
+slug: Event Fever
 image: BLOGEVENTO.jpg
 keywords: ''
 buttontext: Más eventos

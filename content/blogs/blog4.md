@@ -1,9 +1,6 @@
 ---
 title: Es un sitio para  ti
-description: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna
-  sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa
-  sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem
-  consequat tincidunt. Vivamus et sagittis tempus.
+description: 'Los festivos son para mimarte. '
 slug: Exclusividad
 image: TRATOPER.jpg
 keywords: ''

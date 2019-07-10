@@ -14,4 +14,4 @@ categories:
 date: 2017-11-01T03:42:51.000+00:00
 
 ---
-Mis festivos son para mimarte. 
+Los festivos son para mimarte. 

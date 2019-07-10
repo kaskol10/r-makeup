@@ -1,7 +1,7 @@
 ---
 title: Es un sitio para  ti
 description: 'Los festivos son para mimarte. '
-slug: Exclusividad
+slug: esunsitioparati
 image: TRATOPER.jpg
 keywords: ''
 buttontext: Más exclusividad

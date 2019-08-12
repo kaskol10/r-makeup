@@ -18,6 +18,8 @@ name = "Cristina Rancaño Fernández"
 [params.error404]
 heading = "Page couldn't be found"
 text = "Please visit [this page](/)"
+[params.contact]
+formEmail = "criserrefernandez@gmail.com"
 [params.footer]
 copyright = "HTML5 UP"
 enable = true

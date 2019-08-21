@@ -4,27 +4,21 @@
   "title": "Reserva de citas",
   "events": [
     {
-      "event": "Boda en Oviedo",
-      "day": 10,
-      "month": "08",
-      "year": 2019
-    },
-    {
-      "event": "Boda en Oviedo",
-      "day": 31,
-      "month": 5,
+      "event": "Evento en Galicia",
+      "day": 2,
+      "month": 9,
       "year": 2019
     },
     {
       "event": "Evento en Galicia",
-      "day": 19,
-      "month": 7,
+      "day": 3,
+      "month": 9,
       "year": 2019
     },
     {
       "event": "Evento en Galicia",
-      "day": 20,
-      "month": 7,
+      "day": 4,
+      "month": 9,
       "year": 2019
     }
   ]

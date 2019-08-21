@@ -1,6 +1,6 @@
 ---
 new_page_extension: md
-auto_deploy: true
+auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
@@ -21,6 +21,7 @@ public_path: img
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
+instant_preview: 
 build:
   preview_env:
   - HUGO_ENV=staging
@@ -30,4 +31,5 @@ build:
   mount_path: "/opt/buildhome/repo"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
+  preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
 version: 0.55.6

@@ -1,0 +1,31 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:0.55.6
+    working_directory: ~/project
+    steps:
+      - checkout
+      - run: 
+          name: Update 
+          command: apk add --update
+      - run: 
+          name: Install python
+          command: apk add python
+      - run:
+          name: Install pip 
+          command: apk add py-pip
+      - run:
+          name: Install awscli
+          command: pip install awscli
+      - run:
+          name: "Run Hugo"
+          command: hugo -v -s ~/project/ -d public
+      - deploy:
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              cd ~/project/public
+              aws s3 sync . s3://www.maquillajeasturias.com
+              aws cloudfront create-invalidation --distribution-id E3G9IJUKUWUJVI --paths /*
+              echo 'Invalidate'
+            fi

@@ -2893,6 +2893,7 @@
 			}
 
 		}
+		/*
 		@media screen and (max-width: 1024px) {
 			.tiles article:after {
 				background-color: transparent;
@@ -2922,7 +2923,7 @@
 			}
 
 		}
-
+*/
 		@media screen and (max-width: 980px) {
 
 			.tiles article {

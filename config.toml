@@ -4,13 +4,13 @@ disqusShortname = ""
 googleAnalytics = ""
 languageCode = "es-es"
 theme = "forty"
-title = "MaquillajeAsturias"
+title = "Maquillaje Asturias"
 publishDir = "public/"
 [params]
 banner_image = "peinado.jpg"
 custom_css = []
 custom_js = []
-description = "Página web de la maquilladora Cristina Rancaño Fernández"
+description = "Maquillaje profesional a domicilio en Asturias. Eventos y ocasiones especiales, no dudes en ponerte en contacto! "
 favicon = "favicon.ico"
 image = ""
 name = "Cristina Rancaño Fernández"
@@ -19,7 +19,7 @@ name = "Cristina Rancaño Fernández"
 heading = "Page couldn't be found"
 text = "Please visit [this page](/)"
 [params.contact]
-formEmail = "criserrefernandez@gmail.com"
+formEmail = "info@maquillajeasturias.com"
 [params.footer]
 copyright = "HTML5 UP"
 enable = true

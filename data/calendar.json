@@ -5,6 +5,12 @@
   "events": [
     {
       "event": "Evento en Gijón",
+      "day": "31",
+      "month": "Diciembre",
+      "year": ""
+    },
+    {
+      "event": "Evento en Gijón",
       "day": "28",
       "month": "Diciembre",
       "year": ""

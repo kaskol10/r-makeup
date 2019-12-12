@@ -4,6 +4,12 @@
   "title": "Reserva de citas",
   "events": [
     {
+      "event": "Evento en Gijón",
+      "day": "28",
+      "month": "Diciembre",
+      "year": ""
+    },
+    {
       "event": "Evento en Huesca",
       "day": "11",
       "month": "Enero",

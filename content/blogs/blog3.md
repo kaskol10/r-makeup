@@ -1,10 +1,8 @@
 ---
 title: Event Fever
-description: 'Boda, bautizo, comunión, evento formal, graduación donde la etiqueta
-  es que no hay etiqueta. Tenemos nuestro estilo, gusto y personalidad. Ir como uno
-  quiere, no como está escrito, más natural o menos, lo que te apetezca para ese momento. '
+description: 'Eventos de Domingo. No te quedes tirado, cuenta con nosotros. '
 slug: eventfever
-image: BLOGEVENTO.jpg
+image: EVENTO.jpg
 keywords: ''
 buttontext: Más eventos
 categories:
@@ -16,4 +14,3 @@ categories:
 date: 2018-05-31T04:26:13.000+00:00
 
 ---
-Boda, bautizo, comunión, evento formal, graduación donde la etiqueta es que no hay etiqueta. Tenemos nuestro estilo, gusto y personalidad. Ir como uno quiere, no como está escrito, más natural o menos, lo que te apetezca para ese momento.

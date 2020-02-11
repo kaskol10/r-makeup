@@ -4,8 +4,14 @@
   "title": "Reserva de citas",
   "events": [
     {
-      "event": "Evento en Oviedo",
-      "day": "20 ",
+      "event": "",
+      "day": "",
+      "month": "",
+      "year": ""
+    },
+    {
+      "event": "Evento en Gijón",
+      "day": "22",
       "month": "Febrero",
       "year": ""
     }

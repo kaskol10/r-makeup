@@ -4,22 +4,10 @@
   "title": "Reserva de citas",
   "events": [
     {
-      "event": "Evento en Gijón",
-      "day": "31",
-      "month": "Diciembre",
-      "year": "2019"
-    },
-    {
-      "event": "Evento en Gijón",
-      "day": "28",
-      "month": "Diciembre",
-      "year": "2019"
-    },
-    {
-      "event": "Evento en Huesca",
-      "day": "11",
-      "month": "Enero",
-      "year": "2020"
+      "event": "Evento en Oviedo",
+      "day": "20 ",
+      "month": "Febrero",
+      "year": ""
     }
   ]
 }

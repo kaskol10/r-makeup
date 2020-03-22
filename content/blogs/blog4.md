@@ -1,14 +1,13 @@
 ---
 title: Es un sitio para  ti
-description: 'Los festivos son para mimarte. '
-slug: esunsitioparati
+description: Los festivos son para mimarte. NO?
 image: TRATOPER.jpg
-keywords: ''
+slug: esunsitioparati
+keywords: text
 buttontext: Más exclusividad
 categories:
-- ''
-- ''
-date: 2017-11-01T03:42:51.000+00:00
-
+  - ''
+  - ''
+date: 2017-11-01T03:42:51.000Z
 ---
 Los festivos son para mimarte. 

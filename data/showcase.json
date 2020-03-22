@@ -1,26 +1,28 @@
-[
-  {
-    "image": "FOTOEVENTO.jpg",
-    "subtitle": "Are you ready?",
-    "title": "Eventos",
-    "url": "blogs/eventfever"
-  },
-  {
-    "image": "pic04.jpg",
-    "subtitle": "Cosmética de alta calidad pensados para ti",
-    "title": "Calidad",
-    "url": "blogs/productos"
-  },
-  {
-    "image": "school.jpg",
-    "subtitle": "Trato personalizado",
-    "title": "Personal",
-    "url": "blogs/esunsitioparati"
-  },
-  {
-    "image": "pic06.jpg",
-    "subtitle": "¿Qué te apetece?",
-    "title": "Inspiración",
-    "url": "blogs/magnacartainspiratum"
-  }
-]
+{
+  "showcase": [
+    {
+      "image": "FOTOEVENTO.jpg",
+      "subtitle": "Are you ready?",
+      "title": "Eventos",
+      "url": "blogs/eventfever"
+    },
+    {
+      "image": "pic04.jpg",
+      "subtitle": "Cosmética de alta calidad pensados para ti",
+      "title": "Calidad",
+      "url": "blogs/productos"
+    },
+    {
+      "image": "school.jpg",
+      "subtitle": "Trato personalizado",
+      "title": "Personal",
+      "url": "blogs/esunsitioparati"
+    },
+    {
+      "image": "pic06.jpg",
+      "subtitle": "¿Qué te apetece?",
+      "title": "Inspiración",
+      "url": "blogs/magnacartainspiratum"
+    }
+  ]
+}

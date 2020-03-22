@@ -1,0 +1,145 @@
+backend:
+  name: git-gateway
+  branch: develop # Branch to update (optional; defaults to master)
+
+display_url: https://maquillajeasturias.netlify.com
+publish_mode: editorial_workflow
+media_folder: 'static/img'
+public_folder: '/img'
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/blogs'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Keywords', name: 'keywords', widget: 'string', required: false }
+      - { label: 'ButtonText', name: 'buttontext', widget: 'string', required: false } 
+      - { label: 'Categories', name: 'categories', widget: 'list' , required: false }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - label: 'Banner'
+        name: 'banner'
+        file: 'data/banner.json'
+        fields: 
+          - {label: ButtonText, name: buttonText, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+      - label: 'Calendar'
+        name: 'calendar'
+        file: 'data/calendar.json'
+        fields: 
+          - {label: Enable, name: enable, widget: boolean}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Title, name: title, widget: string}
+          - label: Events
+            name: events
+            widget: list
+            fields:
+              - {label: Event, name: event, widget: string}
+              - {label: Day, name: day, widget: number}
+              - {label: Month, name: month, widget: string}
+              - {label: Year, name: year, widget: number, required: false}
+      - label: 'Contact'
+        name: 'contact'
+        file: 'data/contact.json'
+        fields: 
+          - {label: EnableContact, name: enable, widget: boolean}
+          - label: Form
+            name: form
+            widget: list
+            fields: 
+              - {label: SendButton, name: buttonSend, widget: string}
+              - {label: ClearButton, name: buttonClear, widget: string}
+              - {label: FormURL, name: formMail, widget: string}
+              - {label: FirstField, name: firstField, widget: string}
+              - {label: SecondField, name: secondField, widget: string}
+              - {label: ThirdField, name: thirdField, widget: string}
+          - {label: General, name: general, widget: string}
+          - label: Address
+            name: address
+            widget: list
+            fields: 
+              - {label: Street, name: street, widget: string}
+              - {label: Title, name: title, widget: string}
+          - label: Mail
+            name: email
+            widget: list
+            fields: 
+              - {label: Mail, name: email, widget: string}
+              - {label: Title, name: title, widget: string}
+          - label: Phone
+            name: phone
+            widget: list
+            fields: 
+              - {label: Title, name: title, widget: string}
+          - label: Whatsapp
+            name: whatsapp
+            widget: list
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - {label: Text, name: text, widget: string}
+      - label: 'Menu'
+        name: 'menu'
+        file: 'data/navigation.json'
+        fields: 
+          - {label: Menu, name: menu, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Title, name: title, widget: string}
+          - label: Home
+            name: home
+            widget: list
+            fields: 
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: url, widget: string, required: false}
+          - label: Calendar
+            name: calendar
+            widget: list
+            fields: 
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+          - label: Contact
+            name: contact
+            widget: list
+            fields: 
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+          - label: Blog
+            name: links
+            widget: list
+            fields: 
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+      - label: 'Mainpage'
+        name: 'mainpage'
+        file: 'data/showcase.json'
+        fields: 
+          - label: Show
+            name: showcase
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Title, name: Title, widget: string, required: false}
+              - {label: URL, name: url, widget: string}
+      - label: 'Apps'
+        name: 'Apps'
+        file: 'data/social.json'
+        fields: 
+          - label: social
+            name: social
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: string}
+              - {label: Label, name: label, widget: string}
+              - {label: URL, name: url, widget: string}

@@ -3,8 +3,8 @@
     <footer id="footer">
         <div class="inner">
             <ul class="icons">
-                {{ range $social }}
-                    <li><a href="{{ .url | safeHTML }}" class="icon alt {{ .icon }}" target="_blank"><span class="label">{{ .label }}</span></a></li>
+                {{ range $element := $social.social }}
+                    <li><a href="{{ $element.url | safeHTML }}" class="icon alt {{ $element.icon }}" target="_blank"><span class="label">{{ $element.label }}</span></a></li>
                 {{ end }}
             </ul>
             <ul class="copyright">

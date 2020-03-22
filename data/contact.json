@@ -1,13 +1,15 @@
 {
-  "general": {
-    "buttonClear": "Cancelar",
-    "buttonSend": "Contáctame",
-    "buttonWhatsapp": "Whatsapp",
-    "enable": true,
-    "phone": "606575349",
-    "whatsapp": 34606575349,
-    "url": "#contact"
-  },
+  "enable": true,
+  "form": [
+    {
+      "buttonClear": "Cancelar",
+      "buttonSend": "Contáctame",
+      "formMail": "https://formspree.io/info@maquillajeasturias.com",
+      "firstField": "Nombre",
+      "secondField": "Mail",
+      "thirdField": "Mensaje"
+    }
+  ],
   "address": [
     {
       "street": "Asturias",
@@ -22,13 +24,15 @@
   ],
   "phone": [
     {
-      "title": "Teléfono"
+      "title": "Teléfono",
+      "phone": "606575349"
     }
   ],
   "whatsapp": [
     {
       "title": "Mejor por Whatsapp?",
-      "text": "Pincha para whatsappear!"
+      "text": "Pincha para whatsappear!",
+      "phone": "34606575349"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {{ "<!-- Header -->" | safeHTML }}
 {{ $showcase := .Site.Data.showcase }}
     <section id="one" class="tiles">
-        {{ range $showcase }}
+        {{ range $element := $showcase.showcase }}
         <article>
             <span class="image">
-                <img src="{{ .Site.Params.baseURL }}img/{{ .image }}" alt="" />
+                <img src="{{ .Site.Params.baseURL }}img/{{ $element.image }}" alt="" />
             </span>
             <header class="major">
-                <h3><a href="{{ .url | absURL }}/index.html" class="link">{{ .title }}</a></h3>
-                <p>{{ .subtitle }}</p>
+                <h3><a href="{{ $element.url | absURL }}/index.html" class="link">{{ $element.title }}</a></h3>
+                <p>{{ $element.subtitle }}</p>
             </header>
         </article>
         {{ end }}

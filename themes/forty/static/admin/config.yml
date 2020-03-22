@@ -24,21 +24,18 @@ collections:
       - { label: 'Categories', name: 'categories', widget: 'list' , required: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'pages'
-    label: 'Pages'
-    files:
-      - label: "Calendar"
-        name: "calendar"
-        file: 'data/calendar.json'
-        fields: 
-          - {label: Enable, name: enable, widget: boolean}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: Title, name: title, widget: string}
-          - label: Events
-            name: events
-            widget: list
-            fields:
-              - {label: Event, name: event, widget: string}
-              - {label: Day, name: day, widget: number}
-              - {label: Month, name: month, widget: string}
-              - {label: Year, name: year, widget: number}
+  - label: "Calendar"
+    name: "calendar"
+    file: 'data/calendar.json'
+    fields: 
+      - {label: Enable, name: enable, widget: boolean}
+      - {label: Subtitle, name: subtitle, widget: string}
+      - {label: Title, name: title, widget: string}
+      - label: Events
+        name: events
+        widget: list
+        fields:
+          - {label: Event, name: event, widget: string}
+          - {label: Day, name: day, widget: number}
+          - {label: Month, name: month, widget: string}
+          - {label: Year, name: year, widget: number}

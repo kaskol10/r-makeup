@@ -3,24 +3,26 @@
     <section id="contact">
         <div class="inner">
             <section>
-                <form method="post" action="https://formspree.io/info@maquillajeasturias.com">
+                {{ range $element := $contact.form }}
+                <form method="post" action="{{ $element.formMail }}">
                     <div class="field half first">
-                        <label for="name">Nombre</label>
+                        <label for="name">{{ $element.firstField }}</label>
                         <input type="text" name="name" id="name" />
                     </div>
                     <div class="field half">
-                        <label for="email">Email</label>
+                        <label for="email">{{ $element.secondField }}</label>
                         <input type="text" name="email" id="email" />
                     </div>
                     <div class="field">
-                        <label for="message">Mensaje</label>
+                        <label for="message">{{ $element.thirdField }}</label>
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul class="actions">
-                        <li><input type="submit" value="{{ $contact.general.buttonSend }}" class="special" /></li>
-                        <li><input type="reset" value="{{ $contact.general.buttonClear }}" /></li>
+                        <li><input type="submit" value="{{ $element.buttonSend }}" class="special" /></li>
+                        <li><input type="reset" value="{{ $element.buttonClear }}" /></li>
                     </ul>
                 </form>
+                {{ end }}
             </section>
             <section class="split">
                 <section>
@@ -36,8 +38,7 @@
                     <div class="contact-method">
                         <span class="icon alt fa-whatsapp"></span>
                         {{ range $element := $contact.whatsapp }}
-                        <h3><a href="https://wa.me/{{ $contact.general.whatsapp }}">{{ $element.title }}</a></h3>
-                       <!-- <h4><a href="https://wa.me/{{ $contact.general.whatsapp }}">{{ $element.text }}</a></h4>-->
+                        <h3><a href="https://wa.me/{{ $element.phone }}">{{ $element.title }}</a></h3>
                         {{ end }}
                     </div>
                 </section>
@@ -45,8 +46,8 @@
                     <div class="contact-method">
                         <span class="icon alt fa-phone"></span>
                         {{ range $element := $contact.phone }}
-                        <h3> <a href= "tel:{{ $contact.general.phone }}">{{ $element.title }} </a></h3>
-                        <h4><a href= "tel:{{ $contact.general.phone }}">{{ $contact.general.phone }}</a></h4>
+                        <h3> <a href= "tel:{{ $element.phone }}">{{ $element.title }} </a></h3>
+                        <h4><a href= "tel:{{ $element.phone }}">{{ $element.phone }}</a></h4>
                         {{ end }}
                     </div>
                 </section>

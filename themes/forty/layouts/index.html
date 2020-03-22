@@ -27,7 +27,7 @@
 			{{ end }}
 
 		{{ "<!-- Contact -->" | safeHTML}}
-			{{ if .Site.Data.contact.general.enable }}
+			{{ if .Site.Data.contact.enable }}
 				{{ partial "contact.html" . }}
 			{{ end }}
 

@@ -16,11 +16,11 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Keywords', name: 'keywords', widget: 'string', required: false }
-      - { label: 'ButtonText', name: 'buttontext', widget: 'string' } 
+      - { label: 'ButtonText', name: 'buttontext', widget: 'string', required: false } 
       - { label: 'Categories', name: 'categories', widget: 'list' , required: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -49,11 +49,22 @@ collections:
               - {label: Event, name: event, widget: string}
               - {label: Day, name: day, widget: number}
               - {label: Month, name: month, widget: string}
-              - {label: Year, name: year, widget: number}
+              - {label: Year, name: year, widget: number, required: false}
       - label: 'Contact'
         name: 'contact'
         file: 'data/contact.json'
         fields: 
+          - {label: EnableContact, name: enable, widget: boolean}
+          - label: Form
+            name: form
+            widget: list
+            fields: 
+              - {label: SendButton, name: buttonSend, widget: string}
+              - {label: ClearButton, name: buttonClear, widget: string}
+              - {label: FormURL, name: formMail, widget: string}
+              - {label: FirstField, name: firstField, widget: string}
+              - {label: SecondField, name: secondField, widget: string}
+              - {label: ThirdField, name: thirdField, widget: string}
           - {label: General, name: general, widget: string}
           - label: Address
             name: address
@@ -119,7 +130,7 @@ collections:
             fields:
               - {label: Image, name: image, widget: image}
               - {label: Subtitle, name: subtitle, widget: string}
-              - {label: Title, name: Title, widget: string}
+              - {label: Title, name: Title, widget: string, required: false}
               - {label: URL, name: url, widget: string}
       - label: 'Apps'
         name: 'Apps'

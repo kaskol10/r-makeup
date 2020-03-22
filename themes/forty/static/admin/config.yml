@@ -109,24 +109,24 @@ collections:
             fields: 
               - {label: Name, name: name, widget: string}
               - {label: URL, name: url, widget: string}
-      - label: 'Show'
-        name: 'showcase'
+      - label: 'Mainpage'
+        name: 'mainpage'
         file: 'data/showcase.json'
         fields: 
-          - label: MainPage
-            name: mainPage
+          - label: Show
+            name: showcase
             widget: list
             fields:
               - {label: Image, name: image, widget: image}
               - {label: Subtitle, name: subtitle, widget: string}
               - {label: Title, name: Title, widget: string}
               - {label: URL, name: url, widget: string}
-      - label: 'Social'
-        name: 'social'
+      - label: 'Apps'
+        name: 'Apps'
         file: 'data/social.json'
         fields: 
-          - label: Apps
-            name: apps
+          - label: social
+            name: social
             widget: list
             fields:
               - {label: Icon, name: icon, widget: string}

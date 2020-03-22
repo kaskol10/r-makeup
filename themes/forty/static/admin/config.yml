@@ -54,7 +54,7 @@ collections:
         name: 'contact'
         file: 'data/contact.json'
         fields: 
-          - {label: Month, name: general, widget: string}
+          - {label: General, name: general, widget: map}
           - label: Address
             name: address
             widget: list
@@ -90,7 +90,7 @@ collections:
             widget: list
             fields: 
               - {label: Name, name: name, widget: string}
-              - {label: URL, name: url, widget: string}
+              - {label: URL, name: url, widget: string, required: false}
           - label: Calendar
             name: calendar
             widget: list
@@ -110,7 +110,6 @@ collections:
               - {label: Name, name: name, widget: string}
               - {label: URL, name: url, widget: string}
       - label: 'Show'
-        name: 'show'
         file: 'data/showcase.json'
         fields: 
           - label: MainPage
@@ -122,7 +121,6 @@ collections:
               - {label: Title, name: Title, widget: string}
               - {label: URL, name: url, widget: string}
       - label: 'Social'
-        name: 'social'
         file: 'data/social.json'
         fields: 
           - label: Apps

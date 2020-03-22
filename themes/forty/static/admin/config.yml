@@ -4,8 +4,8 @@ backend:
 
 display_url: https://maquillajeasturias.netlify.com
 publish_mode: editorial_workflow
-media_folder: "static/img"
-public_folder: "/img"
+media_folder: 'static/img'
+public_folder: '/img'
 collections:
   - name: 'blog'
     label: 'Blog'
@@ -24,18 +24,111 @@ collections:
       - { label: 'Categories', name: 'categories', widget: 'list' , required: false }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - label: "Calendar"
-    name: "calendar"
-    file: 'data/calendar.json'
-    fields: 
-      - {label: Enable, name: enable, widget: boolean}
-      - {label: Subtitle, name: subtitle, widget: string}
-      - {label: Title, name: title, widget: string}
-      - label: Events
-        name: events
-        widget: list
-        fields:
-          - {label: Event, name: event, widget: string}
-          - {label: Day, name: day, widget: number}
-          - {label: Month, name: month, widget: string}
-          - {label: Year, name: year, widget: number}
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - label: 'Banner'
+        name: 'banner'
+        file: 'data/banner.json'
+        fields: 
+          - {label: ButtonText, name: buttonText, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+      - label: 'Calendar'
+        name: 'calendar'
+        file: 'data/calendar.json'
+        fields: 
+          - {label: Enable, name: enable, widget: boolean}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Title, name: title, widget: string}
+          - label: Events
+            name: events
+            widget: list
+            fields:
+              - {label: Event, name: event, widget: string}
+              - {label: Day, name: day, widget: number}
+              - {label: Month, name: month, widget: string}
+              - {label: Year, name: year, widget: number}
+      - label: 'Contact'
+        name: 'contact'
+        file: 'data/contact.json'
+        fields: 
+          - {label: Month, name: general, widget: string}
+          - label: Address
+            name: address
+            widget: list
+            fields: 
+              - {label: Street, name: street, widget: string}
+              - {label: Title, name: title, widget: string}
+          - label: Mail
+            name: email
+            widget: list
+            fields: 
+              - {label: Mail, name: email, widget: string}
+              - {label: Title, name: title, widget: string}
+          - label: Phone
+            name: phone
+            widget: list
+            fields: 
+              - {label: Title, name: title, widget: string}
+          - label: Whatsapp
+              name: whatsapp
+              widget: list
+              fields: 
+                - {label: Title, name: title, widget: string}
+                - {label: Text, name: text, widget: string}
+      - label: 'Menu'
+        name: 'menu'
+        file: 'data/navigation.json'
+        fields: 
+          - {label: Menu, name: menu, widget: string}
+          - {label: Subtitle, name: subtitle, widget: string}
+          - {label: Title, name: title, widget: string}
+          - label: Home
+            name: home
+            widget: list
+            fields: 
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+          - label: Calendar
+            name: calendar
+            widget: list
+            fields: 
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+          - label: Contact
+            name: contact
+            widget: list
+            fields: 
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+          - label: Blog
+            name: links
+            widget: list
+            fields: 
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+      - label: 'Show'
+        name: 'show'
+        file: 'data/showcase.json'
+        fields: 
+          - label: MainPage
+            name: mainPage
+            widget: list
+            fields:
+              - {label: Image, name: image, widget: image}
+              - {label: Subtitle, name: subtitle, widget: string}
+              - {label: Title, name: Title, widget: string}
+              - {label: URL, name: url, widget: string}
+      - label: 'Social'
+        name: 'social'
+        file: 'data/social.json'
+        fields: 
+          - label: Apps
+            name: apps
+            widget: list
+            fields:
+              - {label: Icon, name: icon, widget: string}
+              - {label: Label, name: label, widget: string}
+              - {label: URL, name: url, widget: string}

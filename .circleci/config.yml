@@ -21,12 +21,9 @@ jobs:
       - run:
           name: Install awscli
           command: pip install awscli
-      - run: 
-          name: "Add BaseURL"
-          command: env HUGO_BASEURL="https://www.maquillajeasturias.com/"
       - run:
           name: "Run Hugo"
-          command: hugo -v -s ~/project/ -d public
+          command: env HUGO_BASEURL="https://www.maquillajeasturias.com/" hugo -v -s ~/project/ -d public
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then

@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: develop # Branch to update (optional; defaults to master)
 
+publish_mode: editorial_workflow
 media_folder: "static/img"
 public_folder: "img"
 collections:
@@ -14,6 +15,11 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Slug', name: 'slug', widget: 'string' }
+      - { label: 'Keywords', name: 'keywords', widget: 'string' }
+      - { label: 'ButtonText', name: 'buttontext', widget: 'string' } 
+      - { label: 'Categories', name: 'categories', widget: 'list' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

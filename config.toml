@@ -1,4 +1,4 @@
-baseURL = "https://www.maquillajeasturias.com/"
+baseURL = "https://maquillajeasturias.netlify.com/"
 #baseURL = "http://localhost:1313"
 disqusShortname = ""
 googleAnalytics = ""

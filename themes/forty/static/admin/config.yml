@@ -28,7 +28,7 @@ collections:
     label: 'Calendar'
     file: 'data/calendar.json'
     fields: 
-      - {label: Enable, name: enable, widget: select, options: [true, false]}
+      - {label: Enable, name: enable, widget: boolean}
       - {label: Subtitle, name: subtitle, widget: string}
       - {label: Title, name: title, widget: string}
       - label: Events
